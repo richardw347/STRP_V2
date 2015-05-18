@@ -12,7 +12,7 @@ $ make
 $ sudo make install
 ```
 
-## Installation Instructions
+## External Tools
 
 STRP uses three external tools CAMUS, MTminer and SHD. We provide a repostory with all three tools:
 

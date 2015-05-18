@@ -6,7 +6,7 @@ STRP is an experimental theorem prover for Propositional Linear Time Temporal Lo
 
 ```sh
 $ git clone https://github.com/richardw347/STRP_V2.git
-$ cd STRP_V2 && mkdir build && cd buildr
+$ cd STRP_V2 && mkdir build && cd build
 $ cmake ../
 $ make
 ```

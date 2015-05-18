@@ -11,4 +11,12 @@ $ cmake ../
 $ make
 ```
 
-More info at http://cgi.csc.liv.ac.uk/~rmw/STRP.html
+## Installation Instructions
+
+STRP uses three external tools CAMUS, MTminer and SHD. We provide a repostory with all three tools:
+
+```sh
+$ git clone https://github.com/richardw347/STRP_EXT_TOOLS.git
+$ cd STRP_EXT_TOOLS && make
+```
+Finally to simplify setup STRP assumes the binaries located in a directory in your PATH, so either copy each binary (camus_mcs, camus_mus, mtminer, shd) to an appropriate directory (e.g. /bin) or add the relevant directories to the path.

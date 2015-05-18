@@ -2,6 +2,10 @@
 
 STRP is an experimental theorem prover for Propositional Linear Time Temporal Logic based on the Simplified Temporal Resolution calculus.
 
+### Publication and Benchmarks
+
+Full details can be found in this [research paper](http://cgi.csc.liv.ac.uk/~rmw/cade13.pdf) and all the benchmarks used can be downloaded from [here](http://cgi.csc.liv.ac.uk/~rmw/benchmarks.zip).
+
 ### Source Installation
 
 ```sh
@@ -14,7 +18,7 @@ $ sudo make install
 
 ## External Tools
 
-STRP uses three external tools CAMUS, MTminer and SHD. We provide a repostory with all three tools:
+STRP uses three external tools [CAMUS](http://sun.iwu.edu/~mliffito/camus/), [MTminer](https://forge.greyc.fr/projects/kdariane/wiki/Mtminer) and [SHD](http://research.nii.ac.jp/~uno/code/shd.html). We provide a repostory with all three tools:
 
 ```sh
 $ git clone https://github.com/richardw347/STRP_EXT_TOOLS.git

@@ -8,9 +8,9 @@
 #ifndef DSNFSOLVER_H_
 #define DSNFSOLVER_H_
 
-#include "../data_struct/DataStruct.h"
-#include "../data_struct/DSNFFormula.h"
-#include "../minisat/Minisat.h"
+#include "DataStruct.h"
+#include "DSNFFormula.h"
+#include "Minisat.h"
 #include "StepResolution.h"
 #include "SometimeResolution.h"
 #include <boost/foreach.hpp>

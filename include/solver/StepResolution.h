@@ -8,9 +8,9 @@
 #ifndef STEPRESOLUTION_H_
 #define STEPRESOLUTION_H_
 
-#include "../data_struct/DataStruct.h"
-#include "../data_struct/DSNFFormula.h"
-#include "../data_struct/CNF_DNF.h"
+#include "DataStruct.h"
+#include "DSNFFormula.h"
+#include "CNF_DNF.h"
 #include <iostream>
 #include <boost/foreach.hpp>
 #include <fstream>

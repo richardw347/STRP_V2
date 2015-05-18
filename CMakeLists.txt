@@ -75,14 +75,12 @@ set(HEADER_FILES
 	${PROJECT_SOURCE_DIR}/include/data_struct/Translator.h
 	${PROJECT_SOURCE_DIR}/include/parser/SNFLexer.hpp
 	${PROJECT_SOURCE_DIR}/include/parser/SNFParser.hpp
-	${PROJECT_SOURCE_DIR}/include/solver/Camus.h
 	${PROJECT_SOURCE_DIR}/include/solver/DSNFSolver.h
 	${PROJECT_SOURCE_DIR}/include/solver/SometimeResolution.h
         ${PROJECT_SOURCE_DIR}/include/solver/StepResolution.h
 
 )
 set(SOURCE_FILES
-	${PROJECT_SOURCE_DIR}/src/Camus.cpp
 	${PROJECT_SOURCE_DIR}/src/DSNFSolver.cpp
 	${PROJECT_SOURCE_DIR}/src/SNF.g
 	${PROJECT_SOURCE_DIR}/src/SNFLexer.cpp

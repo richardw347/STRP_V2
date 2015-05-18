@@ -1,0 +1,1 @@
+and([always(or([a])), always(or([not a, next(b)])), always(or([not a, next(not m)])), always(or([not zz, next(tt)])), always(or([not b, next(a)])), always(or([not b, next(not m)])), always(or([sometime(m)]))]).

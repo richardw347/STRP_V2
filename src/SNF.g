@@ -9,7 +9,7 @@ options {
 
 @parser::includes
 {
-#include "../data_struct/SNFFormula.h"
+#include "SNFFormula.h"
 #include "SNFLexer.hpp"
 }
 

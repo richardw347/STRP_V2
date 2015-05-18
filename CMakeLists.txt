@@ -99,3 +99,6 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/thridparty/ANTLR
 )
 add_executable(STRP_V2 ${ANTLR_FILES} ${MINISAT_FILES} ${HEADER_FILES} ${SOURCE_FILES})
+
+install(TARGETS STRP_V2 DESTINATION bin)
+

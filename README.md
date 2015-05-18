@@ -24,7 +24,7 @@ $ sudo make install
 ## Example
 Running STRP on this simple example can be done using the following command:
 ```sh
-$ STRP32 -itf example.snf
+$ STRP_V2 -itf example.snf
 ```
 This will generate the following output which indicates the problem is Unsatisfiable:
 ```sh
